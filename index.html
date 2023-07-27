@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>    
+        <div id="left">
+          <img src="./img/texas.png" alt="Texas Logo" width="100px">         
+        </div>
+        <div id="right">
+          <a href="https://www.texas.gov/" target="_blank">Visit Texas.gov to Learn More</a>
+        </div>
+        <div id="center">
+          <a href="index.html">Welcome to Texas</a>
+        </div>
+    </header> 
+
+    <div id="navbar">
+      <nav>
+        <ul>
+            <li id="navA"><a href="capital.html">Austin</a></li>
+            <li id="navFW"><a href="fort-worth.html">Fort Worth</a></li>
+            <li id="navG"><a href="galveston.html">Galveston</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="main-section" >      
+      <div class="image-box">
+          <img src="./img/flags-1188055_1280.jpg" alt="A Bluebonnet field with flags" >
+          <h2>Discover Texas</h2>
+          <aside id="main-aside">
+            <strong>FUN FACT</strong>
+            <br>
+            Did you know there is only one natural lake in Texas, and the rest are man-made?
+          </aside>
+      </div>   
+    </section>
+
+    <footer>
+     
+        <form id="my-form">
+            <div>
+                <label for="first">First name:</label>
+                <input type="text" id="first" name="first" placeholder="Enter first name...">
+            </div>
+            <div>
+                <label for="last">Last name:</label>
+                <input type="text" id="last" name="last" placeholder="Enter last name...">
+            </div>
+            <div> 
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter email"/>
+            </div>
+            <div>       
+                <label for="email-two">Confirm Email:</label>
+                <input type="email" id="email-two" placeholder="Confirm Email"/>
+                <br>
+                <label id="message"></label>
+            </div>
+            <div>
+                <label for="question">Send us your question:</label>
+                <textarea name="question" id="question" cols="30" rows="10" placeholder="Type your question..."></textarea>
+            </div>
+            <button type="submit">Submit</button>
+
+        </form>
+    
+      <script src="./js/script.js"></script>
+
+      <div class="copyright">All images from Pixabay.com</div>
+    </footer>
+</body>
+</html>
+

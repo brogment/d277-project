@@ -1,0 +1,196 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  /* border: 1px solid black; */
+}
+
+/* Header */
+
+header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  header div a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #left{
+    float:left;
+    width: 100px;
+    
+  }
+
+  #right {
+    float: right;
+    width: 100px;
+    
+  }
+
+  #center {
+    margin: 0 auto;
+    width: 200px; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 30px;
+    letter-spacing: 3px ;
+  }
+
+  /* Navbar */
+  
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#navbar li {
+  list-style: none;
+  display: inline-block;
+  width: 200px;
+  height: 133px;
+  border: 1px solid rgb(172, 172, 172);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  opacity: .6;
+  
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 28px;
+  color: black;
+  font-weight: bolder;
+}
+
+#navbar li:hover {
+  opacity: .9;
+}
+
+#navbar li a:hover{
+  color: red;
+}
+
+#navA{
+  background-image: url("../img/capitol-96827_1280.jpg"); 
+}
+#navG {
+  background-image: url("../img/galveston-1152505_1280.jpg");
+}
+#navFW {
+  background-image: url("../img/fort-worth-1590922_1280.jpg");
+}
+
+/* Section */
+
+.main-section {
+  
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.image-box {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  
+} 
+
+.image-box img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+.image-box h2 {
+  position: absolute;
+  font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 40px;
+    letter-spacing: 5px ;
+  top: 75px;
+  right: 160px;
+}
+
+#main-aside{
+  height: 400px;
+  width: 200px;
+  background-color: rgb(172, 172, 172);
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  padding: 20px;
+  line-height: 2.5;
+}
+
+/* Footer */
+
+footer {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+label {
+  display: inline-block; 
+  width: 150px;
+}
+
+.copyright {
+  float: right;
+}
+
+/* Table */
+
+table td {
+  text-align: left;
+}
+table th {
+  text-align: left;
+}
+
+.tab1{
+  width: 10px;
+  height:10px;
+  background-color: lightgreen;
+}
+.tab2{
+  width: 10px;
+  height:10px;
+  background-color: lightsalmon;
+}
+/*state page layout*/
+
+.state-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.table-wrap {
+  background-color: rgb(65, 65, 65);
+  color: white;
+}
+
+.city-aside {
+ background-color: rgb(172, 172, 172);
+ color: black;
+}
+
+.table-wrap, .city-aside {
+  
+  padding: 20px;
+  margin-top: 20px;
+}
